@@ -1,0 +1,93 @@
+body {
+    font-family: 'Open Sans', serif;
+    background-color: #f9fafc;
+}
+
+.company p {
+	position: absolute;
+	font-size: 12px;
+	margin: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content:flex-end
+}
+
+nav a {
+    margin: 10px;
+    font-size: 12px;
+    padding-top: 10px;
+	color: #69696a;
+}
+
+#hire {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+.main {
+	display: inline-block;
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 45%;
+}
+
+.main p {
+    font-size: 13px;
+	color: #69696a;
+	border-left: 3px solid lightgray;
+    padding-left: 15px;
+}
+
+
+.red, .purple, .orange {
+    display: inline-block;
+	position: fixed;
+    border-radius: 50%;
+}
+
+.red {
+	background-color: rgba(247, 136, 167, 0.6);
+	right: 130px;
+	bottom: 120px;
+	height: 250px;
+    width: 250px;
+	z-index: 1;
+}
+
+.purple {
+	background-color: rgba(207, 130, 213, 0.6);
+	right: 50px;
+	bottom: 220px;
+	height: 120px;
+    width: 120px;
+	z-index: 2;
+}
+
+.orange {
+	background-color: rgba(247, 193, 162, 0.7);	
+	right: 50px;
+	bottom: 90px;
+	height: 150px;
+    width: 150px;
+	z-index: 3;
+}
+
+#scroll {
+	position: fixed;
+	bottom: 10px;
+	right: 45%;
+	color: white;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px 15px;
+	font-size: 12px;
+}
+
+h4 {
+    font-size: 30px;
+	margin-bottom: 20px;
+}
